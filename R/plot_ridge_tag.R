@@ -10,6 +10,7 @@
 #' @examples
 #' cscopy %>% plot_ridge_tag(tag="surg_bun_t_biopsy")
 plot_ridge_tag <- function(df, tag, resp = "tp_med") {
+
   max_lim <- df %>% dplyr::pull(tp_med) %>% max()
 
   tag_type <-

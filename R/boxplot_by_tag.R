@@ -10,6 +10,7 @@
 #' @examples
 #' cscopy %>% boxplot_by_tag(tag='surg_bun_tag_biopsy')
 boxplot_by_tag <- function(df, resp = "tp_med", tag) {
+
   #min_lim <- df %>% pull(tp_med) %>% min()
   max_lim <- df %>% dplyr::pull(tp_med) %>% max()
 

@@ -9,6 +9,7 @@
 #' cscopy %>% get_tag_cor %>% View()
 #'
 get_tag_cor <- function(df) {
+
   cor_data <- df %>%
     dplyr::select_if( ~ is.numeric(.) == TRUE | is.logical(.) == TRUE)
 
