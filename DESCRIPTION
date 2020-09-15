@@ -20,4 +20,5 @@ imports: data.table,
   scales,
   rstatix,
   ggpubr
+depends: data.table
   
