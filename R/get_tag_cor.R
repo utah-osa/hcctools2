@@ -20,7 +20,7 @@ get_tag_cor <- function(df) {
     dplyr::filter(!is.na(value)) %>%
     dplyr::mutate(value = abs(value)) %>%
     dplyr::arrange(desc(value)) %>%
-    dplyr::filter(stringr::str_detect(name, "^amt_bill") == FALSE) %>%
+    dplyr::filter(stringr::str_detect(name, "^tp_") == FALSE) %>%
     dplyr::filter((!stringr::str_detect(name, "bun_med")) &
                     (!stringr::str_detect(name, "bun_min")) &
                     (!stringr::str_detect(name, "bun_avg")) &
