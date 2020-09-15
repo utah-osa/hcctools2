@@ -7,6 +7,8 @@
 #'
 #' @examples
 btbv3_omit_nblocks <- function(df){
+  df <-  data.table::as.data.table(df)
+
   df[,data.table::`:=`(
     cleaned_names =       purrr::pmap(.l=list(surg_pc_codes=surg_bun,
                                        surg_sp_name_clean,
