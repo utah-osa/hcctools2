@@ -18,5 +18,5 @@ plot_price_vs_duration
 a ggplot object which has the tp_med vs the mean duration of the bundled procedures
 }
 \examples{
-cscopy \%>\% plot_pric_vs_duration()
+#cscopy \%>\% plot_pric_vs_duration()
 }

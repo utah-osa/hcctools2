@@ -6,7 +6,6 @@
 #' @export
 #'
 #' @examples
-#' cscopy %>% plot_pric_vs_duration()
 plot_price_vs_duration <- function(df){
 
   ggplot2::ggplot(data=df,

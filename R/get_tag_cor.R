@@ -6,7 +6,6 @@
 #' @export
 #'
 #' @examples
-#' cscopy %>% get_tag_cor %>% View()
 #'
 get_tag_cor <- function(df) {
 

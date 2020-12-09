@@ -19,6 +19,3 @@ ggplot object
 \description{
 boxplot_by_tag
 }
-\examples{
-cscopy \%>\% boxplot_by_tag(tag='surg_bun_tag_biopsy')
-}

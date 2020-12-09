@@ -7,7 +7,6 @@
 #' @export
 #'
 #' @examples
-#' cscopy %>% get_tag_density_information(tag="surg_bun_t_biopsy")
 get_tag_density_information <- function(df, tag) {
 
   gg1 <- hcctools2::boxplot_by_tag(df = df, tag = tag, resp = "tp_med")

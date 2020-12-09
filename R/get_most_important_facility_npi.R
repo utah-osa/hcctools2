@@ -1,3 +1,13 @@
+#' Title
+#'
+#' @param most_important_fac
+#' @param facility_str
+#' @param facility_npi_str
+#'
+#' @return
+#' @export
+#'
+#' @examples
 get_most_important_facility_npi <- function(most_important_fac, facility_str, facility_npi_str){
   facility_str_list <- facility_str %>% stri_split_regex(", ") %>% unlist()
   facility_str_npi_list <- facility_npi_str %>% stri_split_regex(", ") %>% unlist()

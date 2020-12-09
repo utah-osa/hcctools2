@@ -20,5 +20,5 @@ plot_ridge_tag(df, tag, resp = "tp_med")
 plot_ridge_tag
 }
 \examples{
-cscopy \%>\% plot_ridge_tag(tag="surg_bun_t_biopsy")
+#cscopy \%>\% plot_ridge_tag(tag="surg_bun_t_biopsy")
 }
