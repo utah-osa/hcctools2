@@ -20,6 +20,9 @@ imports: data.table,
   scales,
   rstatix,
   purrr,
-  ggpubr
-depends: data.table
-  
+  ggpubr,
+  magrittr,
+  stringi
+depends: data.table,
+  stringi
+

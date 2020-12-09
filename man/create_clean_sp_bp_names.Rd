@@ -8,7 +8,11 @@ create_clean_sp_bp_names(
   surg_sp_name_clean,
   surg_bp_name_clean,
   faci_sp_name_clean,
-  faci_bp_name_clean
+  faci_bp_name_clean,
+  surg_sp_npi,
+  surg_bp_npi,
+  faci_sp_npi,
+  faci_bp_npi
 )
 }
 \arguments{
@@ -19,6 +23,8 @@ create_clean_sp_bp_names(
 \item{faci_sp_name_clean}{facility service provider npi name}
 
 \item{faci_bp_name_clean}{facility bill provider npi name}
+
+\item{faci_bp_npi}{}
 }
 \value{
 list( doctor_str,facility_str)
