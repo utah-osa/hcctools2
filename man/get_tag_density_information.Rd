@@ -17,6 +17,3 @@ a list of ggobjects (a grid of density distributions and boxplots), and a stats 
 \description{
 get_tag_density_information
 }
-\examples{
-#cscopy \%>\% get_tag_density_information(tag="surg_bun_t_biopsy")
-}

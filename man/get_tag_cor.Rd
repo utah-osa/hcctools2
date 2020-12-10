@@ -16,6 +16,5 @@ tibble of correlation values SORTed BY absolute value
 get_tag_cor
 }
 \examples{
-#cscopy \%>\% get_tag_cor \%>\% View()
 
 }
